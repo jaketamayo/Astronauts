@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+  let astronauts: [String: Astronaut] = Bundle.main.decodeData("astronauts.json")
     var body: some View {
         Text("Hello, world!")
             .padding()
